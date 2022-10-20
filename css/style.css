@@ -10,6 +10,7 @@ img {
 .sidebar {
   background: #233A5F;
   max-width: 210px;
+  padding: 12px 12px 200px;
 
 }
 
@@ -70,10 +71,8 @@ img {
   gap: 10px;
   background: #E5E5E5;
   border-radius: 4px;
-  flex: none;
-  order: 0;
   align-self: stretch;
-  flex-grow: 0;
+  max-width: 186px;
 }
 
 .sidebar__skills {
@@ -86,26 +85,28 @@ img {
 
 }
 
-.sidebar__skills-title {
+.sidebar__skills-title,
+.sidebar__hobby-title {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 18px;
   text-align: center;
-
   color: #FFFFFF;
 
 }
 
-.sidebar__skills-text {
+.sidebar__skills-text,
+.sidebar__hobby-text {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
   line-height: 15px;
-
+  list-style-type: disc;
   color: #FFFFFF;
+  margin-left: 14px;
 }
 
 .sidebar__hobby {
@@ -113,29 +114,6 @@ img {
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-}
-
-.sidebar__hobby-title {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 18px;
-
-
-  text-align: center;
-
-  color: #FFFFFF;
-}
-
-.sidebar__hobby-text {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 15px;
-
-  color: #FFFFFF;
 }
 
 .sidebar__contacts {
@@ -174,10 +152,20 @@ img {
   gap: 8px;
 }
 
+.sidebar__contacts-link-social>a {
+  color: #FFFFFF;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+}
+
 .content {
   background-color: #FFFFFF;
   max-width: 385px;
-
+  padding: 32px 32px 0;
 }
 
 .content__container {
@@ -227,6 +215,11 @@ img {
   align-items: flex-start;
   padding: 0px;
   gap: 24px;
+}
+
+.content__experience-list-img {
+  width: 80px;
+  margin-top: 3px;
 }
 
 .content__education-list-year {
