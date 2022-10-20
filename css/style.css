@@ -1,0 +1,308 @@
+img {
+  width: 100%;
+}
+
+.block {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  background: #233A5F;
+  max-width: 210px;
+
+}
+
+.sidebar__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.sidebar__img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url('../img/me.jpg');
+  background-size: cover;
+  background-position: bottom;
+  border-radius: 50%;
+}
+
+.sidebar__title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF
+}
+
+.sidebar__text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  color: #C4C2C2;
+}
+
+.sidebar__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  flex: none;
+}
+
+
+.sidebar__info-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 4px 8px;
+  gap: 10px;
+  background: #E5E5E5;
+  border-radius: 4px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.sidebar__skills {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  flex: none;
+
+}
+
+.sidebar__skills-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+}
+
+.sidebar__skills-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+
+  color: #FFFFFF;
+}
+
+.sidebar__hobby {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.sidebar__hobby-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.sidebar__hobby-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+
+  color: #FFFFFF;
+}
+
+.sidebar__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+}
+
+.sidebar__contacts-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.sidebar__contacts-link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
+
+.sidebar__contacts-link-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+}
+
+.content {
+  background-color: #FFFFFF;
+  max-width: 385px;
+
+}
+
+.content__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  max-width: 321px;
+  height: 302px;
+}
+
+.content__about,
+.content__education,
+.content__experience {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.content__about-title,
+.content__education-title,
+.content__experience-title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #233A5F;
+  border-bottom: 2px solid #111111;
+}
+
+.content__about-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 12px;
+  color: #878787;
+}
+
+.content__education-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+}
+
+.content__education-list-year {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #2A2A2A;
+}
+
+.content__education-list-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+}
+
+.content__education-list-detail-name {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #2A2A2A;
+}
+
+.content__education-list-detail-course {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 12px;
+  color: #2A2A2A;
+}
+
+.content__experience-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+}
+
+.content__experience-list-job {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px
+}
+
+.content__experience-list-job-name {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 15px;
+  color: #2A2A2A;
+}
+
+.content__experience-list-job-position {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 12px;
+  color: #2A2A2A;
+}
+
+.content__experience-list-job-description {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 12px;
+  color: #878787;
+}
